@@ -1,0 +1,78 @@
+body {
+  color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/./mainbg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+
+
+.form-wrapper {
+width:300px;
+height:370px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.27);
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+
+h3{
+  font-size: 25px;
+  font-weight: 640;
+  margin-bottom: 10px;
+  color: #e7e7e7;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+
+
+
+.form-item input{
+  border: none;
+  background:transparent;
+  color: #fff;
+  margin-top:11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 49px;
+  padding: 0 16px;
+  width: 100%;
+  padding-left: 55px;
+
+}
+
+.magic {
+  background: linear-gradient(135deg, #2bffc8, #7770f5, #404bc8, #120517);
+  background-size: 800% 800%;
+
+  -webkit-animation: amartya 6s ease infinite;
+  -moz-animation: amartya 6s ease infinite;
+  animation: amartya 6s ease infinite;
+}
+
+@-webkit-keyframes amartya {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-moz-keyframes amartya {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@keyframes amartya {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
